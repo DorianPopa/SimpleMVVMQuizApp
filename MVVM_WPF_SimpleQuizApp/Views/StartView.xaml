@@ -1,0 +1,22 @@
+﻿<Window x:Class="MVVM_WPF_SimpleQuizApp.Views.StartView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MVVM_WPF_SimpleQuizApp.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    
+    <Grid HorizontalAlignment="Center" Width="600" VerticalAlignment="Top">
+        <Label x:Name="Title" Content="MVVM Quiz Application" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="50" FontFamily="Consolas" Grid.Row="1"/>
+        <Label x:Name="Username" Content="Username" HorizontalAlignment="Left" Margin="170,150,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="UsernameTextBox" HorizontalAlignment="Center" Margin="0,152,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"
+                 Text="{Binding Path=Username}"/>
+        <Label x:Name="Difficulty" Content="Difficulty" HorizontalAlignment="Left" Margin="173,0,0,0" VerticalAlignment="Center"/>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Center" VerticalAlignment="Center" Width="120" 
+                  ItemsSource="{Binding Path=Difficulties}"
+                  SelectedValue="{Binding Path=SelectedDifficulty}"/>
+        <Button x:Name="StartButton" Content="Start" HorizontalAlignment="Center" Margin="0,375,0,0" VerticalAlignment="Top" Height="54" Width="214"
+                Command="{Binding Path=StartGameCommand}"/>
+    </Grid>
+</Window>

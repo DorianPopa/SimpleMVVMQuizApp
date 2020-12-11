@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?> 
+<Quiz>
+    <Questions>
+        <Question>
+            <Difficulty>1</Difficulty>
+            <QuestionText>In which continent is the country of Japan located? 1111111</QuestionText>
+            <Answers>
+              <Answer IsCorrect="1" AnswerText="Asia"/>
+              <Answer AnswerText="Europe"/>
+              <Answer AnswerText="Africa"/>
+              <Answer AnswerText="America"/>
+            </Answers>
+        </Question>
+        <Question>
+            <Difficulty>1</Difficulty>
+            <QuestionText>In which continent is the country of Japan located? 2222222</QuestionText>
+            <Answers>
+              <Answer AnswerText="Europe"/>
+              <Answer IsCorrect="1" AnswerText="Asia"/>
+              <Answer AnswerText="Africa"/>
+              <Answer AnswerText="America"/>
+            </Answers>
+        </Question>
+        <Question>
+          <Difficulty>1</Difficulty>
+          <QuestionText>In which continent is the country of Japan located? 3333333</QuestionText>
+          <Answers>
+            <Answer AnswerText="Europe"/>
+            <Answer AnswerText="Africa"/>
+            <Answer IsCorrect="1" AnswerText="Asia"/>
+            <Answer AnswerText="America"/>
+          </Answers>
+        </Question>
+        <Question>
+          <Difficulty>2</Difficulty>
+          <QuestionText>Which one cannot swim?</QuestionText>
+            <Answers>
+              <Answer IsCorrect="1" AnswerText="Ant"/>
+              <Answer IsCorrect="1" AnswerText="Spider"/>
+              <Answer AnswerText="Whale"/>
+              <Answer AnswerText="Lobster"/>
+            </Answers>
+        </Question>		
+        <Question>
+            <Difficulty>3</Difficulty>
+            <QuestionText>How many points are on a hexagon?</QuestionText>
+            <Answers>
+              <Answer AnswerText="5"/>
+              <Answer IsCorrect="1" AnswerText="6"/>
+              <Answer AnswerText="7"/>
+              <Answer AnswerText="8"/>
+            </Answers>
+        </Question>
+    </Questions>
+</Quiz>
